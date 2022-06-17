@@ -1,0 +1,378 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top_section {
+  background: url("/svgs/bg-hero-desktop.svg") hsl(193, 100%, 96%) no-repeat;
+  background-size: cover;
+  padding: 0 0 4em 0;
+  height: 90vh;
+  width: 100%;
+  margin-bottom: 4em;
+}
+
+.top_section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.top_section header button {
+  background: hsl(193, 100%, 96%);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: auto;
+  padding: 0.9em 3em;
+  border-radius: 34px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.top_section header button:hover {
+  background: hsl(193, 100%, 92%);
+  transform: translate(0, -2px);
+  transition: all 0.2s ease-in-out;
+}
+
+.section_a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.lhs-a {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.lhs-a h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0 0 0.3em 0;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+}
+
+.lhs-a p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 0 0.5em 0;
+  color: hsl(192, 100%, 9%);
+}
+
+.rhs-a {
+  width: 40%;
+}
+
+.rhs-a img {
+  width: 100%;
+}
+
+.lhs-a button {
+  width: 60%;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 1em 3em;
+  border-radius: 34px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lhs-a button:hover {
+  opacity: 0.7;
+}
+
+.section_b,
+.section_c,
+.section_d {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 20%;
+  margin: 1em auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 5em;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transform: translate(0, -5px);
+  transition: all 0.2s ease-in-out;
+}
+
+.section_c {
+  flex-direction: row-reverse;
+}
+
+.lhs {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.lhs h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0 0 0.3em 0;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+}
+
+.lhs p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 0 0.5em 0;
+  color: hsl(208, 11%, 55%);
+}
+
+.rhs {
+  width: 40%;
+}
+
+.rhs img {
+  width: 100%;
+}
+
+.section_e {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: 100px auto -120px;
+  padding: 2em;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section_e h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0 0 2em 0;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+}
+
+.section_e button {
+  width: 40%;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 1em 3em;
+  border-radius: 34px;
+}
+
+.section_e button:hover {
+  background: hsl(322, 100%, 62%);
+  opacity: 0.7;
+  transform: translate(0, -2px);
+  transition: all 0.2s ease-in-out;
+}
+
+.footer {
+  z-index: 1;
+  background: hsl(192, 100%, 9%);
+  padding: 10em 0 3em 0;
+  width: 100%;
+}
+
+.footer_inner {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 2fr;
+  gap: 3em;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+.info p {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  margin: -5px 0 0.5em 0.5em;
+}
+
+ul {
+  list-style: none;
+  margin-top: 60px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 0 0.5em 0;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.icon p {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  margin: auto 0 0.5em 0;
+}
+
+.icon_ctn {
+  width: 70%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon_ctn i {
+  font-size: 1.2em;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 0.5em 0.6em;
+}
+
+.icon_ctn i:hover {
+  border: 1px solid hsl(322, 100%, 62%);
+  background: hsl(322, 100%, 62%);
+}
+
+@media (max-width: 768px) {
+  .section_a {
+    flex-direction: column;
+  }
+
+  .top_section {
+    height: auto;
+  }
+
+  .top_section header img {
+    width: 40%;
+  }
+
+  .top_section header button {
+    width: auto;
+    padding: 0.7em 1em;
+  }
+
+  .lhs-a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .lhs-a h2 {
+    font-size: 1.6em;
+  }
+
+  .lhs-a button {
+    width: 70%;
+    margin: 1em auto;
+    padding: 1em;
+  }
+
+  .rhs-a {
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .section_b,
+  .section_c,
+  .section_d {
+    flex-direction: column-reverse;
+    padding: 2em;
+    height: 100%;
+  }
+
+  .lhs {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .lhs h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+
+  .lhs p {
+    font-size: 1em;
+  }
+
+  .rhs {
+    width: 90%;
+  }
+
+  .section_e {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+    text-align: center;
+    margin-bottom: -100px;
+  }
+
+  .section_e h1 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .section_e button {
+    width: 70%;
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  .footer_inner {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  ul {
+    margin-top: 0;
+  }
+
+  ul li {
+    margin: 10px 0;
+  }
+
+  .icon_ctn {
+    width: 40%;
+    margin: 2em 0;
+  }
+}
