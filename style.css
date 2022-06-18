@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-@import url(https://fonts.google.com/specimen/Poppins);
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
+@import url('http://fonts.googleapis.com/css?family=Poppins:400,300,600,700');
 
 * {
   margin: 0;
@@ -28,6 +28,7 @@
 
 .top_section header button {
   background: hsl(193, 100%, 96%);
+  color: hsl(192, 100%, 9%);
   font-size: 18px;
   font-weight: 600;
   border: none;
@@ -229,7 +230,11 @@
 
 ul {
   list-style: none;
-  margin-top: 60px;
+  margin-top: 50px;
+}
+
+ul li {
+  margin: 18px 0;
 }
 
 li a {
@@ -238,6 +243,10 @@ li a {
   font-size: 1.2em;
   font-weight: 500;
   margin: 0 0 0.5em 0;
+}
+
+li a:hover {
+  color: hsl(322, 100%, 62%);
 }
 
 .icon {
@@ -268,11 +277,12 @@ li a {
   border-radius: 50%;
   border: 1px solid white;
   padding: 0.5em 0.6em;
+  cursor: pointer;
 }
 
 .icon_ctn i:hover {
   border: 1px solid hsl(322, 100%, 62%);
-  background: hsl(322, 100%, 62%);
+  color: hsl(322, 100%, 62%);
 }
 
 @media (max-width: 768px) {
@@ -365,10 +375,6 @@ li a {
   }
   ul {
     margin-top: 0;
-  }
-
-  ul li {
-    margin: 10px 0;
   }
 
   .icon_ctn {
